@@ -4,6 +4,7 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   base: "/portafolio/", // ← ESTE ES EL FIX CLAVE
+  publicDir: 'public',
   resolve: {
     alias: {
       "@": "/src",
