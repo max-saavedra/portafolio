@@ -27,7 +27,7 @@ export const personal = {
   // Paths relative to /src/assets/profile/
   profilePhoto: "profile.png",
   petPhoto: "pet.jpg",
-  cvFile: "src/assets/cv/cv.pdf", // Place your CV PDF in /src/assets/cv/
+  cvFile: "assets/cv/cv.pdf", // Place your CV PDF in /src/assets/cv/
 };
 
 // ---------------------------------------------------------------------------
