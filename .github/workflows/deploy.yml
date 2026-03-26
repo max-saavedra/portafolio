@@ -1,35 +1,27 @@
 # .github/workflows/deploy.yml
-# Automatically builds and deploys the portfolio to GitHub Pages
-# on every push to the main branch.
-
 name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
     branches:
-      - main   # Change to "master" if your default branch is named master
-
-  # Allow manual trigger from the Actions tab
+      - main
   workflow_dispatch:
 
-# Grant write permission to deploy to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Only allow one concurrent deployment
 concurrency:
   group: pages
   cancel-in-progress: true
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -52,6 +44,15 @@ jobs:
         with:
           path: ./dist
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
