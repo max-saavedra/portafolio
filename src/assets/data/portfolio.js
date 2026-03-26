@@ -206,7 +206,7 @@ export const certifications = [
     issuer: "Huawei",
     year: 2024,
     logo: "https://upload.wikimedia.org/wikipedia/en/0/04/Huawei_Standard_logo.svg",
-    file: "/assets/certificates/certified_hcia_5g_trainig_huawei.jpg",
+    file: `${import.meta.env.BASE_URL}assets/certificates/certified_hcia_5g_trainig_huawei.jpg`,
     verify: null,
   },
   {
@@ -215,7 +215,7 @@ export const certifications = [
     issuer: "Huawei",
     year: 2024,
     logo: "https://upload.wikimedia.org/wikipedia/en/0/04/Huawei_Standard_logo.svg",
-    file: "/assets/certificates/certificado_hcia_cloud_trainig_huawei.jpg",
+    file: `${import.meta.env.BASE_URL}assets/certificates/certificado_hcia_cloud_trainig_huawei.jpg`,
     verify: null,
   },
   {
@@ -224,7 +224,7 @@ export const certifications = [
     issuer: "Huawei",
     year: 2024,
     logo: "https://upload.wikimedia.org/wikipedia/en/0/04/Huawei_Standard_logo.svg",
-    file: "/assets/certificates/certificado_hcia_ia_trainig_huawei.jpg",
+    file: `${import.meta.env.BASE_URL}assets/certificates/certificado_hcia_ia_trainig_huawei.jpg`,
     verify: null,
   },
   {
@@ -233,7 +233,7 @@ export const certifications = [
     issuer: "Huawei Talent",
     year: 2025,
     logo: "https://upload.wikimedia.org/wikipedia/en/0/04/Huawei_Standard_logo.svg",
-    file: "/assets/certificates/certified_Cloud Basics_ Development and Basic Concepts (Spanish).jpg",
+    file: `${import.meta.env.BASE_URL}assets/certificates/certified_Cloud Basics_ Development and Basic Concepts (Spanish).jpg`,
     verify: null,
   },
   {
@@ -242,7 +242,7 @@ export const certifications = [
     issuer: "Universidad Nacional Mayor de San Marcos",
     year: 2024,
     logo: "https://upload.wikimedia.org/wikipedia/commons/3/3a/UNMSM_coatofarms_seal.svg",
-    file: "/assets/certificates/constancia_fundamentos_java.jpg",
+    file: `${import.meta.env.BASE_URL}assets/certificates/constancia_fundamentos_java.jpg`,
     verify: "https://tramiteonline.unmsm.edu.pe/sgdfd/mcc/verifica/unmsm",
   },
   {
@@ -251,7 +251,7 @@ export const certifications = [
     issuer: "Google (Coursera)",
     year: 2024,
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/3840px-Google_%22G%22_logo.svg.png",
-    file: "/assets/certificates/Coursera ACZ2UC1OZW6L.pdf",
+    file: `${import.meta.env.BASE_URL}assets/certificates/Coursera ACZ2UC1OZW6L.pdf`,
     verify: "https://coursera.org/verify/ACZ2UC1OZW6L",
   },
   {
@@ -260,7 +260,7 @@ export const certifications = [
     issuer: "Google (Coursera)",
     year: 2024,
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/3840px-Google_%22G%22_logo.svg.png",
-    file: "/assets/certificates/Coursera Y78NX1Y3M95G.pdf",
+    file: `${import.meta.env.BASE_URL}assets/certificates/Coursera Y78NX1Y3M95G.pdf`,
     verify: "https://coursera.org/verify/Y78NX1Y3M95G",
   },
   {
@@ -269,7 +269,7 @@ export const certifications = [
     issuer: "QWorld",
     year: 2025,
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGXzRiBdm4geg/company-logo_200_200/company-logo_200_200/0/1630622089601?e=2147483647&v=beta&t=bpUP4yfSqahrZ8WmzJlbLPp9oPNeFaAjXJXvmIJ7tds",
-    file: "/assets/certificates/QBronze163-173.pdf",
+    file: `${import.meta.env.BASE_URL}assets/certificates/QBronze163-173.pdf`,
     verify: null,
   },
   {
@@ -278,7 +278,7 @@ export const certifications = [
     issuer: "QWorld",
     year: 2025,
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGXzRiBdm4geg/company-logo_200_200/company-logo_200_200/0/1630622089601?e=2147483647&v=beta&t=bpUP4yfSqahrZ8WmzJlbLPp9oPNeFaAjXJXvmIJ7tds",
-    file: "/assets/certificates/QNickel22-113.pdf",
+    file: `${import.meta.env.BASE_URL}assets/certificates/QNickel22-113.pdf`,
     verify: null,
   },
   {
@@ -287,7 +287,7 @@ export const certifications = [
     issuer: "Código Facilito",
     year: 2025,
     logo: "https://codigofacilito.com/assets/iso-2c915b58698845df3902effd7a958111fef40aab4c8c13db1db519b37fc1b2e8.png",
-    file: "/assets/certificates/Certificado - Bootcamp Azure AI Engineer Associate.pdf",
+    file: `${import.meta.env.BASE_URL}assets/certificates/Certificado - Bootcamp Azure AI Engineer Associate.pdf`,
     verify: null,
   },
   {
@@ -296,7 +296,7 @@ export const certifications = [
     issuer: "Udemy",
     year: 2023,
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/200px-Udemy_logo.svg.png",
-    file: "/assets/certificates/certificado_python_udemy.jpg",
+    file: `${import.meta.env.BASE_URL}assets/certificates/certificado_python_udemy.jpg`,
     verify: null,
   },
   {
@@ -305,7 +305,7 @@ export const certifications = [
     issuer: "Universidad Nacional de Ingeniería",
     year: 2025,
     logo: "https://w1.pngwing.com/pngs/892/30/png-transparent-engineering-logo-national-university-of-engineering-university-of-northern-iowa-public-university-school-higher-education-education-lima.png",
-    file: "/assets/certificates/certificado_erp_odoo.pdf",
+    file: `${import.meta.env.BASE_URL}assets/certificates/certificado_erp_odoo.pdf`,
     verify: null,
   },
   {
@@ -314,7 +314,7 @@ export const certifications = [
     issuer: "Universidad Nacional de Ingeniería",
     year: 2025,
     logo: "https://w1.pngwing.com/pngs/892/30/png-transparent-engineering-logo-national-university-of-engineering-university-of-northern-iowa-public-university-school-higher-education-education-lima.png",
-    file: "/assets/certificates/certificado_fundamentos_linux.pdf",
+    file: `${import.meta.env.BASE_URL}assets/certificates/certificado_fundamentos_linux.pdf`,
     verify: null,
   },
   {
@@ -323,7 +323,7 @@ export const certifications = [
     issuer: "Universidad Nacional de Ingeniería",
     year: 2025,
     logo: "https://w1.pngwing.com/pngs/892/30/png-transparent-engineering-logo-national-university-of-engineering-university-of-northern-iowa-public-university-school-higher-education-education-lima.png",
-    file: "/assets/certificates/certificado_fundamentos_blockchain.pdf",
+    file: `${import.meta.env.BASE_URL}assets/certificates/certificado_fundamentos_blockchain.pdf`,
     verify: null,
   },
   {
