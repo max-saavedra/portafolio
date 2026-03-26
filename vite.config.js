@@ -1,15 +1,23 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
-// Set the base to your GitHub repository name for GitHub Pages.
-// Example: if your repo is github.com/username/portfolio, set base to "/portfolio/"
-// For a user/org page (username.github.io), set base to "/"
+// Vite configuration for GitHub Pages deployment
 export default defineConfig({
   plugins: [vue()],
-  base: "/portfolio/", // Change this to match your GitHub repo name
+
+  // Base path must match your GitHub repository name
+  // Local: "/"
+  // Production: "/portafolio/"
+  base: process.env.NODE_ENV === "production" ? "/portafolio/" : "/",
+
   resolve: {
     alias: {
       "@": "/src",
     },
+  },
+
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
   },
 });
